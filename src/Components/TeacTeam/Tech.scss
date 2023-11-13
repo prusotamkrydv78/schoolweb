@@ -1,0 +1,17 @@
+.techSlider {
+  display: flex;
+  overflow: auto;
+  width: 80%;
+  margin-top: 70px;
+  img {
+    height: 35vh;
+    width: 35vh;
+  }
+  .slide1 {
+    margin: 0 10px;
+
+  }
+}
+.slider::-webkit-scrollbar{
+    display: none;
+}

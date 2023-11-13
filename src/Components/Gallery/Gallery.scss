@@ -1,0 +1,12 @@
+.gallerySlider {
+  display: flex;
+  overflow: auto;
+  width: 98%;
+  margin-top: 70px;
+  img {
+    width: 60vh;
+  }
+  .slide1 {
+    margin: 0 10px;
+  }
+}

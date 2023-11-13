@@ -1,0 +1,40 @@
+.mainFooter {
+  height: 40vh;
+  .footer {
+    height: 30vh;
+    display: grid;
+    padding-top: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    .fotBox {
+      height: 100%;
+      width: 100%;
+      display: grid;
+      grid-template-rows: 0.31fr 1fr;
+      .fotHeading {
+        display: flex;
+        align-items: center;
+      }
+      .links {
+        li {
+          list-style: none;
+          margin: 10px 0;
+          font-size: 16px;
+          font-weight: 400;
+          cursor: pointer;
+          &:hover {
+          }
+        }
+      }
+    }
+  }
+  .bottomFot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00beff;
+    height: 10vh;
+    font-weight: bolder;
+    color: black;
+  }
+}
