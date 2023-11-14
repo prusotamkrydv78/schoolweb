@@ -1,3 +1,13 @@
+.Contact{
+  height: auto;
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(1 15 49);
+
 .contactHeading {
   margin-bottom: 3rem;
   color: white;
@@ -56,4 +66,5 @@
     color: white;
     font-weight: bold;
   }
+}
 }

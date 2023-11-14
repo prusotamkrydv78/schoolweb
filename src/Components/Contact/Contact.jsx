@@ -2,7 +2,8 @@ import React from "react";
 import "./Contact.scss";
 const Contact = () => {
   return (
-    <>
+    <div className="Contact">
+
       <div className="contactHeading">
         <h1>Contact Us</h1>
       </div>
@@ -54,7 +55,7 @@ const Contact = () => {
             </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

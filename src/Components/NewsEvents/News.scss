@@ -1,41 +1,50 @@
-.container {
-  background: #dde1ea;
-  box-shadow: 0px 0px 5px 4px #6da8c5;
-  height: 49vh;
-  width: 40vh;
-  padding: 0;
+.NewsEvents {
+  height: 100vh;
+  width: 100%;
   display: grid;
-  img {
-    height: 30vh;
-    width: 100%;
-  }
-  .content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    h5{
+  grid-template-rows: 0.31fr 1fr 0.41fr;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  background-color: #b6cce4;
+  .container {
+    background: #dde1ea;
+    box-shadow: 0px 0px 5px 4px #6da8c5;
+    height: 49vh;
+    width: 40vh;
+    padding: 0;
+    display: grid;
+    img {
+      height: 30vh;
+      width: 100%;
+    }
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h5 {
         font-size: 15px;
+      }
     }
   }
-
-}
-.button{
+  .button {
     display: flex;
     align-items: center;
     justify-content: center;
-    button{
-            padding: 5px 11px;
-    outline: none;
-    border: none;
-    font-size: 20px;
-    border-radius: 3px;
-    font-weight: 600;
-    background: deeppink;
-    color: white;
-    cursor: pointer;
-    &:hover{
+    button {
+      padding: 5px 11px;
+      outline: none;
+      border: none;
+      font-size: 20px;
+      border-radius: 3px;
+      font-weight: 600;
+      background: deeppink;
+      color: white;
+      cursor: pointer;
+      &:hover {
         background-color: rgb(230, 0, 255);
+      }
     }
-    }
+  }
 }

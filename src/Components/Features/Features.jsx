@@ -6,7 +6,7 @@ import { BiSolidBus } from "react-icons/bi";
 import {AiFillHome} from 'react-icons/ai'
 const Features = () => {
   return (
-    <>
+    <div className="Features">
       <div className="heading">
         <h1>FEATURES AND INFRASTRUCTURE</h1>
       </div>
@@ -28,7 +28,7 @@ const Features = () => {
           <h1>Hostal</h1>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

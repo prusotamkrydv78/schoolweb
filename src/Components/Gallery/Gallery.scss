@@ -1,12 +1,22 @@
-.gallerySlider {
+
+.Gallery{
+  height: 80vh;
+  width: 100%;
   display: flex;
-  overflow: auto;
-  width: 98%;
-  margin-top: 70px;
-  img {
-    width: 60vh;
-  }
-  .slide1 {
-    margin: 0 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #00748863;
+  .gallerySlider {
+    display: flex;
+    overflow: auto;
+    width: 98%;
+    margin-top: 70px;
+    img {
+      width: 60vh;
+    }
+    .slide1 {
+      margin: 0 10px;
+    }
   }
 }

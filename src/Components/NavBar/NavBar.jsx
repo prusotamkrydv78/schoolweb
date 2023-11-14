@@ -1,5 +1,6 @@
 import React from "react";
-import "./NavBar.scss";  
+import "./NavBar.scss";
+import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
@@ -8,13 +9,27 @@ const NavBar = () => {
         <div className="right">
           <div className="navbar">
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Facilities</li>
-              <li>Events</li>
-              <li>Admission</li>
-              <li>Gallery</li>
-              <li>Contact</li>
+              <li>
+                <NavLink to="/">Home</NavLink>
+              </li>
+              <li>
+                <NavLink to="/about">About</NavLink>
+              </li>
+              <li>
+                <NavLink to="/facilities">Facilities</NavLink>
+              </li>
+              <li>
+                <NavLink to="/news">Events</NavLink>
+              </li>
+              <li>
+                <NavLink to="addmission">Addmission</NavLink>
+              </li>
+              <li>
+                <NavLink to="/gallery">Gallery</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Contact</NavLink>
+              </li>
             </ul>
           </div>
         </div>

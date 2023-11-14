@@ -8,7 +8,7 @@ const Tech = () => {
         console.log(value);
     }, 3000);
   return (
-    <>
+    <div className="teacherTeam">
     <h1 className="heading">Our Teacher Team</h1>
       <div className="techSlider">
         <div className="slide1">
@@ -58,7 +58,7 @@ const Tech = () => {
           <img src={img1} alt="..." />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

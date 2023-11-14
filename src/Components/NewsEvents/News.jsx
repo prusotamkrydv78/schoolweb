@@ -3,7 +3,7 @@ import "./News.scss";
 import img from './Images/news.jpg'
 const News = () => {
   return (
-    <>
+    <div className="NewsEvents">
       <div className="heading">
         <h2>NEWS & EVENTS</h2>
       </div>
@@ -19,7 +19,7 @@ const News = () => {
       <div className="button">
         <button>Explore more</button>
       </div>
-    </>
+    </div>
   );
 };
 

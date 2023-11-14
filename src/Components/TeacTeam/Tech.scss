@@ -1,17 +1,25 @@
-.techSlider {
+.teacherTeam {
+  height: 80vh;
+  width: 100%;
   display: flex;
-  overflow: auto;
-  width: 80%;
-  margin-top: 70px;
-  img {
-    height: 35vh;
-    width: 35vh;
+  align-items: center;
+  justify-content: center;
+  background: #5fa3eb85;
+  flex-direction: column;
+  .techSlider {
+    display: flex;
+    overflow: auto;
+    width: 80%;
+    margin-top: 70px;
+    img {
+      height: 35vh;
+      width: 35vh;
+    }
+    .slide1 {
+      margin: 0 10px;
+    }
   }
-  .slide1 {
-    margin: 0 10px;
-
-  }
-}
-.slider::-webkit-scrollbar{
+  .slider::-webkit-scrollbar {
     display: none;
+  }
 }

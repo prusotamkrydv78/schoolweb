@@ -4,7 +4,7 @@ import img1 from './Images/children.png'
 
 const Gallery = () => {
   return (
-    <>
+    <div className="Gallery">
     <h1 className="heading">Gallery</h1>
       <div className="gallerySlider">
         <div className="slide1">
@@ -17,7 +17,7 @@ const Gallery = () => {
           <img src={img1} alt="..." />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
